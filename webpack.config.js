@@ -8,13 +8,13 @@ module.exports = {
     output: {
         filename: "main.js",
         path: path.resolve(__dirname, "dist"),
-        publicPath: '/'
     },
     //DevServer 設定
     devServer: {
-        contentBase: './dist',
         hot: true,
-        historyApiFallback: true
+        historyApiFallback:{
+            index:'dist/index.html'
+        },
       },
     //模組載入規則
     module: {

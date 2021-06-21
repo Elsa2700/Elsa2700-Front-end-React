@@ -11,8 +11,5 @@ class Main extends React.Component{
             </Link>
         </div>
     }
-    ClickHandler(e){
-
-    }
 }
 export {Main};
