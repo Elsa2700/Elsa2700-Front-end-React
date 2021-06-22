@@ -3,16 +3,16 @@ import "./style/styleHomePage.css";
 import "./style/styleListPage.css";
 import HomePage from './HomePage.js';
 import ListPage from './ListPage.js';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 function App(){
     return (
-        <Router>
+        <Router basename='/Elsa2700-Front-end-React'>
         <div>
             <Switch>
-            <Route path="/Elsa2700-Front-end-React/" exact component={HomePage} />
-            <Route path="/Elsa2700-Front-end-React/ListPage" component={ListPage} />
+            <Route path="/" exact component={HomePage} />
+            <Route path="/ListPage" component={ListPage} />
             </Switch>
         </div>
         </Router>

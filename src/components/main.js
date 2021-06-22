@@ -6,7 +6,7 @@ class Main extends React.Component{
     }
     render(){
         return <div className = "main">
-            <Link to='/Elsa2700-Front-end-React/ListPage'>
+            <Link to={{pathname:'/ListPage'}}>
                 <button>點此開始</button>
             </Link>
         </div>
