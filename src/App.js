@@ -11,8 +11,8 @@ function App(){
         <Router>
         <div>
             <Switch>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/ListPage" component={ListPage} />
+            <Route path="/Elsa2700-Front-end-React/" exact component={HomePage} />
+            <Route path="/Elsa2700-Front-end-React/ListPage" component={ListPage} />
             </Switch>
         </div>
         </Router>

@@ -11,7 +11,7 @@ class ListPage extends React.Component {
         return <div className="ListPage">
             <MyForm />
             <div className="HomePagebtn">
-                <Link to='/'>
+                <Link to='/Elsa2700-Front-end-React/'>
                     <button>返回首頁</button>
                 </Link>
             </div>
