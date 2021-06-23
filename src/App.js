@@ -8,7 +8,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App(){
     return (
-        <Router basename='/Elsa2700-Front-end-React'>
+        <Router basename='/dist'>
         <div>
             <Switch>
             <Route path="/" exact component={HomePage} />
